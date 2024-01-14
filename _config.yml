@@ -8,7 +8,7 @@ subtitle: 'WugicFloy''s Official Blog'
 description: 'Try to enjoy your life.'
 keywords: Personal Blog
 author: WugicFloy
-language: an
+language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
@@ -95,9 +95,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-remote_theme: landscape 
+theme: next 
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:WugicCode/WugicCode.github.io
+  branch: main
